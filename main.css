@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Rakkas|Sanchez&display=swap');
+
+/*
+	Fonts used:
+	font-family: 'Rakkas', cursive;
+	font-family: 'Sanchez', serif;
+*/
+
+body {
+	font-size: 16px;
+	font-family: 'Sanchez', serif;
+	background-color: #f2f2f2; /* Light background for contrast */
+	margin: 0;
+	padding: 0;
+	color: #333;
+}
+
+h1, h2, h3 {
+	font-family: 'Rakkas', cursive;
+	color: #000;
+}
+
+aside {
+	float: right;
+	width: 250px;
+	padding: 20px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+footer {
+	clear: both;
+	padding: 20px;
+	text-align: center;
+	font-size: 0.9em;
+	color: #666;
+	border-top: 2px solid #ccc;
+}
+
+header {
+	background-color: #fff;
+	padding: 20px;
+	text-align: center;
+	border-bottom: 2px solid #ccc;
+}
+
+img {
+	max-width: 75%;
+	display: block;
+	margin: 20px auto;
+}
+
+main {
+	float: left;
+	width: calc(100% - 460px); /* Adjusted to fit nav and aside */
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+nav {
+	padding: 20px;
+	width: 100px;
+	float: left;
+}
+
+img {
+	max-width: 75%;
+	display: block;
+	margin: 20px auto;
+}
+
+#copyright {
+	font-size: 80%;
+	color: #999;
+}
+
+#main-container {
+	max-width: 960px;
+	margin: auto;
+	background-color: #fff;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	overflow: hidden;
+	display: flex;
+}
